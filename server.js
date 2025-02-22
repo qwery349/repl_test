@@ -14,7 +14,7 @@ app.get('/log', (req, res) => {
             console.error('Failed to log request:', err);
             res.status(500).send('Internal Server Error');
         } else {
-            res.sendFile(path.join(__dirname, 'pixel.png'));
+            res.sendFile(path.join(__dirname, 'джин.png'));
         }
     });
 });
